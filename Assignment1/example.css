@@ -1,0 +1,157 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: #2c3e50;
+  --tertiary-color: #e74c3c;
+  --main-black: #222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  color: var(--main-black);
+  padding: 0.5rem 10%;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#menu-list {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+#menu-list li {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu-list li:hover {
+  color: var(--primary-color);
+}
+
+.with-border {
+  border-left: 2px solid var(--secondary-color);
+  border-right: 2px solid var(--secondary-color);
+  padding: 0 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.btn {
+  height: min-content;
+  min-height: 48px;
+  border-radius: 24px;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.join {
+  color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.join:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.signin {
+  color: #0a66c2;
+  box-shadow: 0 0 0 1px #0a66c2;
+  background-color: white;
+}
+
+.signin:hover {
+  background-color: rgba(112, 181, 249, 0.1);
+}
+
+.content2{
+  display: flex;
+  padding: 160px;
+  padding-top: 5%;
+}
+
+/* img {
+  margin-left: 150px;
+} */
+
+h1 {
+  font-size: 50px;
+  color: rgb(87, 86, 86);
+  position: absolute;
+}
+
+a {
+  color: #0a66c2;
+}
+
+
+.btn-google, .btn-email {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0.5rem auto;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+.btn-google {
+  background-color: #4285f4;
+  color: white;
+  margin-top: 140px;
+  margin-right: 70%;
+}
+
+.btn-google:hover {
+  background-color: #6fa1f1;
+}
+
+
+.btn-email {
+  background-color: #f1f1f1;
+  color: #333;
+  margin-right: 70%;
+  margin-top: 20px;
+}
+
+.btn-email:hover {
+  background-color: #e0e0e0;
+}
+
+#clicking {
+ padding-top: 30px;
+ text-align: center;
+ margin-right: 160px;
+}
+
+#new_link {
+  padding-top: 50px;
+  margin-left: 170px;
+}
